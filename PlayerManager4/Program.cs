@@ -43,6 +43,9 @@ namespace PlayerManager4
         /// </summary>
         private void Start()
         {
+            // Declare variable of type Icomparer
+            IComparer<Player> comp = new CompareByName(false);
+
             // We keep the user's option here
             string option;
 
@@ -60,11 +63,12 @@ namespace PlayerManager4
                         InsertPlayer();
                         break;
                     case "2":
-                        playerList.Sort();
+                        
+                        playerList.Sort(comp);
                         ListPlayers(playerList);
                         break;
                     case "3":
-                        playerList.Sort();
+                        playerList.Sort(comp);
                         ListPlayersWithScoreGreaterThan();
                         break;
                     case "4":
