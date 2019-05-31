@@ -7,7 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "teste", "teste\teste.csproj
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PlayerManager3", "PlayerManager3\PlayerManager3.csproj", "{7A596780-51CE-4B69-84C2-06BDC8587B27}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlayerManager4", "PlayerManager4\PlayerManager4.csproj", "{51CBBB0F-D807-46E2-8AFE-7BBFB0A74CCA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PlayerManager4", "PlayerManager4\PlayerManager4.csproj", "{51CBBB0F-D807-46E2-8AFE-7BBFB0A74CCA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringCollections", "StringCollections\StringCollections.csproj", "{580C17A3-2051-45C5-8D42-4EFEA3EDFA10}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{51CBBB0F-D807-46E2-8AFE-7BBFB0A74CCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{51CBBB0F-D807-46E2-8AFE-7BBFB0A74CCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{51CBBB0F-D807-46E2-8AFE-7BBFB0A74CCA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{580C17A3-2051-45C5-8D42-4EFEA3EDFA10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{580C17A3-2051-45C5-8D42-4EFEA3EDFA10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{580C17A3-2051-45C5-8D42-4EFEA3EDFA10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{580C17A3-2051-45C5-8D42-4EFEA3EDFA10}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
