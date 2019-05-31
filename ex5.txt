@@ -1,0 +1,17 @@
+1)
+public override int GetHashCode()
+{
+	return Type.GetHashCode() ^ Name.GetHashCode();
+}
+
+public override bool Equals(object other)
+{
+	Player otherPLayer = other as Player;
+	if(otherPlayer == null) return False;
+	if(Name.Equals(otherPlayer.Name) && Type.Equals(otherPlayer.Type)) return True;
+	return False;
+}
+
+2)
+Ana is a Tank.
+Paulo is a slayer.

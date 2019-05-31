@@ -8,7 +8,23 @@ namespace teste
         {
             
             Console.WriteLine("ABC".CompareTo("D"));
-            
+
+            Console.WriteLine();
+
+            Console.WriteLine("ola".GetHashCode());
+
+            Console.WriteLine();
+
+            Console.WriteLine("ole".GetHashCode());
+
+            Console.WriteLine();
+
+            Console.WriteLine("ola".GetHashCode());
+
+            Console.WriteLine();
+
+            Console.WriteLine((2).GetHashCode());
+
         }
     }
 }
